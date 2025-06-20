@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Fragrancia</string>
+    <string name="app_moto">The Essence of Elegance</string>
+
+    <string name="onboarding1_name">Welcome to Fragrancia!</string>
+    <string name="onboarding1_title">Discover Your signature Perfume</string>
+    <string name="onboarding1_button">Next</string>
+
+    <string name="onboarding2_name">Explore Perfume Catalogue</string>
+    <string name="onboarding2_title">Seamless perfume Insights</string>
+    <string name="onboarding2_button">Next</string>
+
+    <string name="onboarding3_name">Stay Updated with Trends</string>
+    <string name="onboarding3_title">Never miss a Trending perfume</string>
+    <string name="onboarding3_button">Get Started</string>
+
+    <string name="signIn_title">Welcome back!</string>
+    <string name="signIn_subtitle">Sign in to continue</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="signIn_button">Sign In</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="create_account">Create new account</string>
+
+    <string name="signUp_title">Create Account</string>
+    <string name="signUp_subtitle">Enter details to sign up</string>
+    <string name="fullName_label">Full Name</string>
+    <string name="fullName_hint">Enter your full name</string>
+    <string name="signUp_button">Sign Up</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="signIn_account">Sign In</string>
+
+    <string name="perfume_category">Perfume Categories</string>
+    <string name="search_perfume">search for a perfume........🔍</string>
+
+    <string name="lavender_title">Lavender</string>
+    <string name="citrus_title">Citrus</string>
+    <string name="catalogue_title">Perfume Catalogue</string>
+
+
+    <string name="sakura_title">SAKURA - CHRISTIAN DIOR PARIS</string>
+    <string name="sakura_description">Experience the elegance of Christian Dior Sakura, a fragrance that captures the grace and purity of cherry blossoms.
+         \n\nInspired by the delicate Sakura flowers of Japan.
+         \n\nThis perfume opens with freshness leading into a soft floral heart.
+         \n\n<b>Perfect For</b> - Everyday wear and evening occasions.
+        \n\n<b>Application</b> - Neck and Wrist.</string>
+
+    <string name="upcoming_perfume">New Upcoming Perfumes</string>
+    <string name="new_trends">Trending - New Release</string>
+    <string name="recommended_products">Recommended Products</string>
+
+    <string name="profile_title">My Profile</string>
+    <string name="profile_name">KESHIA RAYNER </string>
+    <string name="profile_email">keshia@gmail.com </string>
+    <string name="phone_label">Phone </string>
+    <string name="phone_number">071xxxxxxx</string>
+    <string name="edit_button">Edit</string>
+    <string name="communityReview_button">Community Reviews</string>
+    <string name="fragranceHistory_button">Fragrance History</string>
+
+    <string name="communityReview_title">Community Review</string>
+    <string name="writeReview_button">Write Review</string>
+    <string name="Review_subtitle">Reviews</string>
+
+    <string name="Review_customer1">Sarah kelly</string>
+    <string name="Review_cus1_details">Great product, long lasting!</string>
+
+    <string name="Review_customer2">Nichola k.</string>
+    <string name="Review_cus2_details">Perfect for everyday wear!</string>
+
+    <string name="Review_customer3">Anne gomez</string>
+    <string name="Review_cus3_details">Amazing trend updates!</string>
+
+    <string name="My_Review">My Review</string>
+    <string name="Review_fullName">Full Name</string>
+    <string name="Review_fullName_hint">Enter Full Name</string>
+    <string name="Review_product">Product</string>
+    <string name="Review_product_hint">Enter the product</string>
+    <string name="Review_details">Write a review</string>
+    <string name="Review_details_hint">write a review..</string>
+    <string name="ReviewSubmit_button">Submit</string>
+
+
+</resources>

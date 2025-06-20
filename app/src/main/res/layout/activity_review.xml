@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3ADAD"
+    tools:context=".Review">
+
+
+    <TextView
+        android:id="@+id/reviewTitle"
+        android:layout_width="396dp"
+        android:layout_height="125dp"
+        android:background="#2B0C0D"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/My_Review"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="352dp"
+        android:layout_height="525dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:cardBackgroundColor="#F9F2F2"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/reviewTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Review_fullName"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/fullNameEditText"
+                android:layout_width="327dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/Review_fullName_hint"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Review_product"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/productEditText"
+                android:layout_width="322dp"
+                android:layout_height="53dp"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/Review_product_hint"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Review_details"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/reviewEditText"
+                android:layout_width="318dp"
+                android:layout_height="126dp"
+                android:layout_marginBottom="16dp"
+                android:background="#FFFFFF"
+                android:hint="@string/Review_details_hint"
+                android:gravity="top|start"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#2B0C0D"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:text="@string/ReviewSubmit_button"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:menu="@menu/bottom_navigation_menu"
+        app:itemIconTint="#2C0E1F"
+        app:itemIconSize="30dp"
+        app:itemTextColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

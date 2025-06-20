@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:title="Catalogue"
+        android:id="@+id/Community"
+        android:icon="@drawable/ic_catalogue"
+        />
+    <item
+        android:title="Trends"
+        android:id="@+id/discover"
+        android:icon="@drawable/ic_trends"
+        />
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        />
+
+
+</menu>

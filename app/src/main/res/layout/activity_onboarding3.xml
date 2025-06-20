@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#BCC1EF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="432dp"
+        android:layout_height="174dp"
+        android:background="#2C0E1F"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/onboarding3_name"
+        android:textColor="#F3E2F4"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="416dp"
+        android:layout_height="279dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.426"
+        app:srcCompat="@drawable/onboarding3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="426dp"
+        android:layout_height="109dp"
+        android:background="#2C0E1F"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/onboarding3_title"
+        android:textColor="#F3E2F4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <Button
+        android:id="@+id/onboarding3"
+        android:layout_width="219dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2C0E1F"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="@string/onboarding3_button"
+        android:textColor="#F3E2F4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.48" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

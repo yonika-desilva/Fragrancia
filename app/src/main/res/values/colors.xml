@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="blue">#BCC1EF</color>
+
+    <!-- Ascent Color -->
+    <color name="magenta">#2C0E1F</color>
+
+    <!-- Secondary Color -->
+    <color name="pink">#F0D0F0</color>
+
+    <!-- Lavender Colors -->
+    <color name="light_purple">#8F673AB7</color>
+    <color name="deep_purple">#261843</color>
+
+    <!-- Citrus Colors -->
+    <color name="citrus_background">#F8ED91</color>
+    <color name="citrus_text_background">#543500</color>
+
+    <!-- Catalogue and Community Colors -->
+    <color name="catalogue_background">#E24B1435</color>
+    <color name="community_review_background">#D3ADAD</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">@color/blue </color>
+    <color name="gradient_end_color">#3E2328</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

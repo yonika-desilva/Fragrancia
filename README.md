@@ -35,6 +35,7 @@ The app includes the following screens:
 
 Each screen is designed using modern Android UI components and layout structures to ensure a smooth visual experience.
 Implements common Android views such as `TextView`, `ImageView`, `Button`, and `RecyclerView`.
-Navigation between screens is handled using **Intents** (no actual functionality implemented yet mainly focused on aesthetic UI designing ).
+Navigation between screens is handled using **Intents**
+(no actual functionality implemented yet, mainly focused on aesthetic UI designing ).
 
 
